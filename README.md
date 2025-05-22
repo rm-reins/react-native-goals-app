@@ -1,50 +1,104 @@
-# Welcome to your Expo app 👋
+# Goals App - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is based on the [React Native - The Practical Guide [2025]](https://www.udemy.com/course/react-native-the-practical-guide/) course, but implemented with TypeScript and modern best practices.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- Modern UI with TypeScript implementation
+- Goal tracking and management
+- Smooth animations and transitions
+- Cross-platform (iOS & Android) support
+- Built with Expo Router for navigation
 
-   ```bash
-   npm install
-   ```
+## 📱 Screenshots
 
-2. Start the app
+### My Version (TypeScript)
 
-   ```bash
-   npx expo start
-   ```
+<img src="./assets/preview.png" alt="My TypeScript Implementation" width="300"/>
 
-In the output, you'll find options to open the app in a
+### Course Version (JavaScript)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<img src="./assets/course-app.png" alt="Course JavaScript Implementation" width="400"/>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+- **Framework**: React Native with Expo
+- **Language**: TypeScript
+- **Navigation**: Expo Router
+- **UI Components**:
+  - Expo Vector Icons
+  - Expo Blur
+  - Expo Image
+- **Animations**:
+  - React Native Reanimated
+  - React Native Gesture Handler
+- **State Management**: React Hooks
+- **Development**:
+  - ESLint
+  - TypeScript
+  - Expo Development Client
 
-When you're ready, run:
+## 🏗️ Project Structure
 
-```bash
-npm run reset-project
+```
+goals-app/
+├── app/                 # Main application code
+├── assets/             # Images and static assets
+├── .expo/              # Expo configuration
+├── .vscode/            # VS Code settings
+└── scripts/            # Utility scripts
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+1. **Prerequisites**
 
-To learn more about developing your project with Expo, look at the following resources:
+   - Node.js (LTS version)
+   - npm or yarn
+   - Expo CLI
+   - iOS Simulator (for Mac) or Android Studio (for Android development)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. **Installation**
 
-## Join the community
+   ```bash
+   # Clone the repository
+   git clone [repository-url]
+   cd goals-app
 
-Join our community of developers creating universal apps.
+   # Install dependencies
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. **Running the App**
+
+   ```bash
+   # Start the development server
+   npm start
+   # or
+   yarn start
+   ```
+
+   Then:
+
+   - Press `i` to run on iOS simulator
+   - Press `a` to run on Android emulator
+   - Scan QR code with Expo Go app for physical device
+
+## 📝 Available Scripts
+
+- `npm start` - Start the Expo development server
+- `npm run android` - Start the app on Android
+- `npm run ios` - Start the app on iOS
+- `npm run web` - Start the app in web browser
+- `npm run lint` - Run ESLint
+- `npm run reset-project` - Reset project to initial state
+
+## 🔧 Configuration
+
+The app uses the following configuration files:
+
+- `app.json` - Expo configuration
+- `tsconfig.json` - TypeScript configuration
+- `eslint.config.js` - ESLint configuration
