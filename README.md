@@ -14,7 +14,7 @@ This project is based on the [React Native - The Practical Guide [2025]](https:/
 
 ### My Version (TypeScript)
 
-<img src="./assets/preview.png" alt="My TypeScript Implementation" width="300"/>
+<img src="./assets/preview.png" alt="My TypeScript Implementation" width="400"/>
 
 ### Course Version (JavaScript)
 
